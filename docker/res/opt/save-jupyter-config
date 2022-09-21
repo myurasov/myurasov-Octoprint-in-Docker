@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cp -r /root/.jupyter /app/docker/res/root/ && \
+    rm -rf /app/docker/res/root/.jupyter/lab/workspaces && \
+    echo "done"
